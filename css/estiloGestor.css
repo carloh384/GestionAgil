@@ -1,0 +1,401 @@
+   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient(circle at -0.97% 58.99%, #b3f285 0, #99ed85 16.67%, #76e382 33.33%, #42d47b 50%, #00c577 66.67%, #00ba79 83.33%, #00b380 100%);  padding: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+    position: relative;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .menu .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+  }
+  
+  .menu .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .menu .dropdown-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .menu .dropdown-menu li a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .user-profile a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .user-profile a:hover {
+    text-decoration: underline;
+  }
+ 
+ 
+ 
+ /* Estilos para la card */
+ .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            background-image: radial-gradient(circle at -0.97% 58.99%, #b3f285 0, #99ed85 16.67%, #76e382 33.33%, #42d47b 50%, #00c577 66.67%, #00ba79 83.33%, #00b380 100%);  padding: 20px;
+
+        }
+        
+ .card-container button{
+     height : 70px;
+ }
+
+        .card {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .footer-section {
+          background-image: radial-gradient(circle at -0.97% 58.99%, #b3f285 0, #99ed85 16.67%, #76e382 33.33%, #42d47b 50%, #00c577 66.67%, #00ba79 83.33%, #00b380 100%);  padding: 20px;
+
+        }
+            .footer-cta {
+              border-bottom: 1px solid #373636;
+            }
+            .single-cta i {
+              color: #ff5e14;
+              font-size: 30px;
+              float: left;
+            }
+            .cta-text {
+              padding-left: 15px;
+              display: inline-block;
+            }
+            .cta-text h4 {
+              color: #fff;
+              font-size: 20px;
+              font-weight: 600;
+            
+            }
+            .cta-text span {
+              color: #757575;
+              font-size: 15px;
+            }
+            .footer-content {
+              position: relative;
+              z-index: 2;
+              
+            }
+            .footer-pattern img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 330px;
+              background-size: cover;
+              background-position: 100% 100%;
+            }
+            .footer-logo {
+            
+            }
+            .footer-logo img {
+              max-width: 200px;
+            }
+            .footer-text p {
+            
+              font-size: 14px;
+              color: #7e7e7e;
+              line-height: 28px;
+            }
+            
+            .footer-widget-heading h3 {
+              color: #fff;
+              font-size: 20px;
+              font-weight: 600;
+            
+              position: relative;
+            }
+            .footer-widget-heading h3::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              bottom: -15px;
+              height: 2px;
+              width: 50px;
+              background: #ff5e14;
+            }
+            .footer-widget ul li {
+              display: inline-block;
+              float: left;
+              width: 50%;
+              margin-bottom: 12px;
+            }
+            .footer-widget ul li a:hover {
+              color: #ff5e14;
+            }
+            .footer-widget ul li a {
+              color: #878787;
+              text-transform: capitalize;
+            }
+            .subscribe-form {
+              position: relative;
+              overflow: hidden;
+            }
+            .subscribe-form input {
+              width: 100%;
+              padding: 0px 28px;
+              background: #2e2e2e;
+              border: 1px solid #2e2e2e;
+              color: #fff;
+            }
+            .subscribe-form button {
+              position: absolute;
+              right: 0;
+              background: #ff5e14;
+              padding: 0px 20px;
+              border: 1px solid #ff5e14;
+              top: 0;
+            }
+            .subscribe-form button i {
+              color: #fff;
+              font-size: 22px;
+              transform: rotate(-6deg);
+            }
+            .copyright-area {
+              background-image: radial-gradient(circle at -0.97% 58.99%, #b3f285 0, #99ed85 16.67%, #76e382 33.33%, #42d47b 50%, #00c577 66.67%, #00ba79 83.33%, #00b380 100%);  padding: 20px;
+              padding: 25px 0;
+            }
+            .copyright-text p {
+              margin: 0;
+              font-size: 14px;
+              color: #878787;
+            }
+            .copyright-text p a {
+              color: #ff5e14;
+            }
+            .footer-menu li {
+              display: inline-block;
+              margin-left: 20px;
+            }
+            .footer-menu li:hover a {
+              color: #ff5e14;
+            }
+            .footer-menu li a {
+              font-size: 14px;
+              color: #878787;
+            }
+            
+              
+            
+            
+            
+            /* Estilos m��vil/celular */
+            @media all and (max-width: 700px) {
+                
+            .carousel-item {
+                    display: block;
+                    height: 300px;
+            
+                    }
+              /* Oculta el nav en la parte izquiera */
+              .nav  {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: radial-gradient(circle at -18.3% 68.3%, #012a2b 0, #002a2d 6.25%, #002a30 12.5%, #002a32 18.75%, #012933 25%, #032935 31.25%, #072836 37.5%, #0b2837 43.75%, #102738 50%, #152638 56.25%, #192538 62.5%, #1d2538 68.75%, #212437 75%, #242336 81.25%, #282235 87.5%, #2b2134 93.75%, #2e2032 100%);
+                transform: translateX(-100vw);
+                transition: 0.5s;
+              }
+              
+            
+            
+              /* Muestra el nav */
+              .nav--show {
+                transform: translateX(0);
+                z-index: 10;
+                
+              }
+            
+              .nav__button {
+                text-align: right;
+                margin: 1rem;
+              }
+            
+              .nav__ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+              }
+            
+              .nav__link {
+                display: block;
+                padding: 1rem;
+                font-size: 1.5rem;
+                text-align: center;
+                text-decoration: none;
+            
+              }
+            }
+            
+            /* Estilos Escritorio */
+            @media all and (min-width: 701px) {
+            
+              /* Oculta bot��n de abrir o cerrar */
+              .nav__button,
+              .header__button-nav--open {
+                display: none;
+              }
+            
+            }
+            
+
+/* Estilos móvil/celular */
+@media all and (max-width: 700px) {
+
+  /* Oculta el nav en la parte izquiera */
+  .nav  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at -18.3% 68.3%, #012a2b 0, #002a2d 6.25%, #002a30 12.5%, #002a32 18.75%, #012933 25%, #032935 31.25%, #072836 37.5%, #0b2837 43.75%, #102738 50%, #152638 56.25%, #192538 62.5%, #1d2538 68.75%, #212437 75%, #242336 81.25%, #282235 87.5%, #2b2134 93.75%, #2e2032 100%);
+    transform: translateX(-100vw);
+    transition: 0.5s;
+  }
+  
+
+
+  /* Muestra el nav */
+  .nav--show {
+    transform: translateX(0);
+    z-index: 10;
+    
+  }
+
+  .nav__button {
+    text-align: right;
+    margin: 1rem;
+  }
+
+  .nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+
+  }
+}
+
+/* Estilos Escritorio */
+@media all and (min-width: 701px) {
+
+  /* Oculta botón de abrir o cerrar */
+  .nav__button,
+  .header__button-nav--open {
+    display: none;
+  }
+
+  /* Adapta el nav en horizontal */
+  .nav__ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav__link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+  }
+
+  .nav__link:hover {
+    opacity: 0.5;
+  }
+}
+  
